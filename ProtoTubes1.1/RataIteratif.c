@@ -33,7 +33,7 @@ void process_csv_files_iterative() {
     struct dirent *entry;
     int file_count = 1;
 
-    printf("Pendekatan Iterative\n\n");
+    printf("\nPendekatan Iterative\n");
 
     while ((entry = readdir(dir)) != NULL) {
         if (strstr(entry->d_name, ".csv")) {
