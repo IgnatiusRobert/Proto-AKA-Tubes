@@ -42,7 +42,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    printf("Pendekatan Recursive \n\n");
+    printf("\nPendekatan Recursive: \n");
 
     struct dirent *entry = readdir(dir);
     process_csv_files_recursive(dir, entry, 1);
